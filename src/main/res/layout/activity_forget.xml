@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forget_activity"
+    android:background="@drawable/sc"
+    android:backgroundTintMode="screen">
+    <TextView
+        android:id="@+id/tvinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_register_mobile_number_and_email"
+        android:textSize="16sp"
+        android:textStyle="bold"
+       android:layout_marginTop="410dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black" />
+<EditText
+    android:id="@+id/etforPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/phone_number"
+    android:textColor="@color/white"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="20dp"
+    android:inputType="phone"
+    android:layout_below="@+id/tvinfo"
+    android:layout_marginRight="50dp"
+    />
+    <EditText
+        android:id="@+id/etforEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_mail"
+        android:textColor="@color/white"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etforPhone"
+        android:layout_marginRight="50dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/etforEmail"
+        android:layout_margin="50dp"
+        />
+</RelativeLayout>

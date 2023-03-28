@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="food_runner">Food Runner</string>
+    <string name="enter_phone_number">Enter Phone number</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="forget_password"><u>Forget password</u></string>
+    <string name="do_not_have_account_register_sign_up"><u>Do not have account Register? Sign-up</u></string>
+    <string name="enter_register_mobile_number_and_email"><u>Enter Register mobile number and email</u></string>
+    <string name="phone_number">Phone number</string>
+    <string name="e_mail">E-mail</string>
+    <string name="next">Next</string>
+    <string name="register_yourself"><u>Register Yourself</u></string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="ph_num">Phone number</string>
+    <string name="e_mail_id">E-mail Id</string>
+    <string name="pass_word">Password</string>
+    <string name="submit">SUBMIT</string>
+</resources>

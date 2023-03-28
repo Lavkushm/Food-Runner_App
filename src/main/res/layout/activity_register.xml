@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    tools:context=".Register_activity">
+    <TextView
+        android:id="@+id/tvry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_yourself"
+       android:layout_margin="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="6dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_full_name"
+        android:textStyle="bold"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/tvry"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:inputType="textAutoCorrect"
+        />
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ph_num"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/etName"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:maxLength="12"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_mail_id"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_below="@+id/etPhone"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass_word"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_below="@+id/etMail"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/etPass"
+        android:layout_margin="50dp"
+        />
+
+
+</RelativeLayout>
